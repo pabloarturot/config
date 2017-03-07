@@ -3,7 +3,7 @@ spring:
     mongodb:
       host: auth-mongodb
       username: user_db
-      password: ${MONGODB_PASSWORD}
+      password: '{cipher}AQBzffRmFYVNO+49T0b3HlnDN46ERnyd9KaoL5lnvmrmpadT6EOht43ONr2CaPQdmyv1Y7RgI7csu472DiLZEctyJNrpMd4/BKn1wmeNssOE651NUqxLP+Dc8ibbyAZWQCtv79tZm2NNTJG1tcyQuhubXjn1VOPp+lua/ZBJLv8vRDav4sQRfNJ+ZFaOuc2LebKYQpoCK/IxE0fZvZsTEI4Vng0Tm/VCkEzpAJtixLLD49OH4eNDFuU6FJbjJKDeyhEwpg52a7CdPkB7/BePO+55hXsuXgycAPP7NDYzoBTYpBDvck3NQQnqQz2T5Ds3AJVlj+/aIEKBsjTakz1E6I1QGR0miELOUZb7oIvsvIneqEnqSewBsV+7eQjv0skss9g='
       database: auth_db
       port: 27017
 
